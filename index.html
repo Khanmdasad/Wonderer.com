@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-link">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#trip">Tours</a></li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact Us</li>
+        </ul>
+        <img class="menu-btn" src="./img/threelines.png" alt="">
+    </nav>
+    
+    <header>
+        <div class="header-content">
+            <h2>Explore The ColourFul World</h2>
+            <div class="line"></div>
+            <h1> A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <!-- Events Starts-->
+    <section id="trip" class="event">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/trek.jpg" style="height: 500px; width: 650px;" alt="trek-photo">
+                <h4>Camping in Forest</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quo? Excepturi asperiores sit quaerat quis. Fugit, incidunt. Ea ducimus dolor placeat laborum ullam harum, magnam inventore hic distinctio fuga? Harum?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col">
+                <img src="./img/walking-person.jpg" style="height: 500px; width: 650px;"  alt="walking-person">
+                <h4>Walking Holiday</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quo? Excepturi asperiores sit quaerat quis. Fugit, incidunt. Ea ducimus dolor placeat laborum ullam harum, magnam inventore hic distinctio fuga? Harum?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Events Ends -->
+
+    <!-- Explore Section starts -->
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quo? Excepturi asperiores sit quaerat quis. Fugit, incidunt. Ea ducimus dolor placeat laborum ullam harum, magnam inventore hic distinctio fuga? Harum?</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <!-- Explore Section ends -->
+
+    <!-- tours starts -->
+    
+    <section>
+        <div class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>UPCOMING TOURS & DESTINATION</h1>
+                    <div class="line"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus doloribus earum veritatis, accusantium corporis voluptatum alias, laborum, asperiores saepe autem illum? Blanditiis officiis veniam qui cum nulla aliquid, distinctio in?</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="./img/pic1.jpg " alt="">
+                        <img src="./img/pic2.jpg" alt="">
+                        <img src="./img/pic3.jpg" alt="">
+                        <img src="./img/pic4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- tours End -->
+
+    <!-- footer starts -->
+    <section class="footer">
+        <p>123 Fifth Avenure, NY 10160, New York, USA | Phone: 8080-123-456 | Email: contact@example.com</p>
+        <p>Copyright &#169; 2020 Outdoor Adventure</p>
+    </section>
+    <!-- footer ends -->
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-link');
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+</html>
